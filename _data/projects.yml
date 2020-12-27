@@ -1,21 +1,23 @@
 - name: "Autonomous Systems with AirSim"
   date: "2019 - Now"
   description: |
-    Building off some initial work meant for Microsoft's Game of Drones competition for NeurIPS 2019, I am continuing to explore AirSim in my spare time and using the competition scripts and binaries to evaluate my implementation. It is in progress <a href="https://github.com/rachthree/AirSim_NeurIPS" target="_blank"> here </a>.
-    With the need for realtime processing, I am attempting to use Fast-SCNN, a realtime semantic segmentation convolutional neural network. The authors have not published their code likely due to proprietary reasons, so I have my own implementation <a href="https://github.com/rachthree/fast_scnn" target="_blank"> here </a>. After confirming results using the CityScapes dataset, I will be using a custom dataset generated from AirSim.
+    Building off some initial work meant for Microsoft's Game of Drones competition for NeurIPS 2019, I am continuing to explore AirSim in my spare time and using the competition scripts and binaries to evaluate my implementation. It is in progress <a href="https://github.com/rachthree/AirSim_NeurIPS" target="_blank"> here</a>.
+    <br />
+    <br />
+    With the need for realtime processing, I am attempting to use Fast-SCNN, a realtime semantic segmentation convolutional neural network. The authors have not published their code likely due to proprietary reasons, so I have my own implementation <a href="https://github.com/rachthree/fast_scnn" target="_blank"> here</a>. After confirming results using the CityScapes dataset, I will be using a custom dataset generated from AirSim.
   image: "microsoft.png"
 
 - name: "Alpha Pilot - Team Deadlock"
   date: "2019"
   description: |
-    I was Perception Lead for Team Deadlock in <a href="https://www.herox.com/alphapilot" target="_blank"> Lockheed Martin's AlphaPilot competition </a>, managing 5 of the 10 team members (all hobbyists) to develop a high speed vision based flight control system. We focused on low latency object detection, and placed 12th out of more than 200 teams for computer vision tasks. The code has been open-sourced at our SME's repo <a href="https://github.com/randxie/alpha-pilot-team-deadlock" target="_blank"> here </a>.
+    I was Perception Lead for Team Deadlock in <a href="https://www.herox.com/alphapilot" target="_blank"> Lockheed Martin's AlphaPilot competition</a>, managing 5 of the 10 team members (all hobbyists) to develop a high speed vision based flight control system. We focused on low latency object detection, and placed 12th out of more than 200 teams for computer vision tasks. The code has been open-sourced at our SME's repo <a href="https://github.com/randxie/alpha-pilot-team-deadlock" target="_blank"> here</a>.
   image: "alphapilot.png"
 
 - name: "Piano Genie Updates"
   date: "2019 - Now"
   description: |
-    As part of our Stanford CS 230 project and under advisement of the Google AI Magenta team, we updated their Piano Genie to be constrained by chords in order to more musically viable results. The updates can be found <a href="https://github.com/rachthree/magenta_cs230_win19" target="_blank"> here </a> and I am continuing the work on my own.
-  image: "google_magenta.jpg"
+    As part of our Stanford CS 230 project and under advisement of the Google AI Magenta team, we updated their Piano Genie to be constrained by chords in order to more musically viable results. The updates can be found <a href="https://github.com/rachthree/magenta_cs230_win19" target="_blank">here </a> and I am continuing the work on my own.
+  image: "google_magenta.png"
 
 - name: "Upcoming Projects"
   date: "Future"
@@ -23,7 +25,7 @@
     There are several projects that are coming up that build from my current projects: <br>
     <ul type="square">
       <li> Automated framework to train and evaluate models </li>
-      <li> Autonomous vehicles using AirSim and GTA V </li>
+      <li> Autonomous vehicles using AirSim and GTAV </li>
       <li> Chord progression generation for jazz melodies </li>
     </ul>
   image: "github_logo.png"

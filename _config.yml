@@ -6,6 +6,7 @@ baseurl: ""
 nav:
   main:
     projects: "/projects"
+    posts: "/blog"
   posts:
     all: "/blog"
     tags: "/blog/tags"

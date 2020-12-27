@@ -1,6 +1,6 @@
 # Craig Chan Home Page
 
-This is the code for the [Craig Chan Home Page](craigchan.github.io). Most components are copied from [Yevgeniy Brikman Home Page](https://www.ybrikman.com).
+This is the code for the [Craig Chan Home Page](https://craigchan.github.io). Most components are copied from [Yevgeniy Brikman Home Page](https://www.ybrikman.com).
 
 ## License
 
