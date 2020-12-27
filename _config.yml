@@ -1,0 +1,49 @@
+# Website settings
+url: "https://craigchan.github.io/"
+baseurl: ""
+
+# Internal nav
+nav:
+  main:
+    projects: "/projects"
+  posts:
+    all: "/blog"
+    tags: "/blog/tags"
+
+# Bio settings
+name: "Craig Chan"
+description: "The home page of Craig Chan."
+thumbnail_path: "profile-photos/profile.jpg"
+
+# URLs
+contact_urls:
+  linkedin:
+    url: "https://www.linkedin.com/in/craig-chan-310b1328/"
+    label: "LinkedIn"
+    icon: "linkedin-square"
+  github:
+    url: "https://github.com/rachthree"
+    label: "GitHub"
+    icon: "github-square"
+
+# Jekyll build settings
+paginate: 10
+paginate_path: "/blog/page:num"
+permalink: "/blog/:year/:month/:day/:title/"
+sass:
+  sass_dir: "/assets/css"
+  style: :compressed
+highlighter: rouge
+timezone: 'America/Los_Angeles'
+markdown: kramdown
+kramdown:
+    math_engine: katex
+
+disqus:
+  shortname: craigchan
+
+# Plugins (GitHub Pages only support a few)
+gems:
+  - jekyll-redirect-from
+  - jekyll-sitemap
+  - jekyll-paginate

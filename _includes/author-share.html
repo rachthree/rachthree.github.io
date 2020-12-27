@@ -1,0 +1,20 @@
+<div class="circle-line-image center mt1">
+  <a href="{{ site.url }}">
+    {% include image.html path=site.thumbnail_path alt=site.name class="border bg-white border-light-gray circle square-100" %}
+  </a>
+</div>
+<div class="clearfix">
+  <div class="sm-col sm-col-7">
+    <a href="{{ site.url }} "><h3>{{ site.name }}</h3></a>
+    <p class="h5">
+      If you want to contact me, reach out to me on
+      <a href="{{ site.contact_urls.linkedin.url }}" target="_blank"> LinkedIn </a>.
+    </p>
+  </div>
+  <!--
+  <div class="sm-col-right">
+    <h3>Share this post</h3>
+    {% include share-buttons.html %}
+  </div>
+  -->
+</div>

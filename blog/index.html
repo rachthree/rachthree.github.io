@@ -1,0 +1,17 @@
+---
+layout: default
+title: "Craig Chan: Posts"
+redirect_from: "/blog"
+nav_item: posts
+nav_item_posts: all
+header_title: Posts
+include_header: posts_header.html
+include_comments:
+  count: true
+---
+
+{% include blog-nav.html %}
+{% for post in paginator.posts %}
+  {% include post-outline.html post=post %}
+{% endfor %}
+{% include pagination.html %}
