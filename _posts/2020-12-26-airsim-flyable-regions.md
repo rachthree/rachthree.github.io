@@ -46,7 +46,7 @@ This information allows us to do the following steps to get the flyable regions:
 
 The projected points are essentially indices in an image array, and OpenCV can be used to fill in the polygon to provide a flyable region mask.
 However, some points may actually be beyond the array's dimensions, i.e the flyable region extends outside of the camera view. To safely account for all possible cases, the image can be padded to fit the points that are outside the array.
-WHen the polygon is filled in, the image can be cropped back to its original size.
+When the polygon is filled in, the image can be cropped back to its original size.
 
 To account for occlusion, we can use the depth measurements. Anything with a distance measurement less than the distances of the four points to the camera is kept. 
 
