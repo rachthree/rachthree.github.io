@@ -1,5 +1,5 @@
 # Website settings
-url: "https://craigchan.github.io/"
+url: "https://rachthree.github.io/"
 baseurl: ""
 
 # Internal nav
@@ -41,7 +41,7 @@ kramdown:
     math_engine: katex
 
 disqus:
-  shortname: craigchan
+  shortname: rachthree
 
 # Plugins (GitHub Pages only support a few)
 gems:
