@@ -7,7 +7,7 @@ nav:
   main:
     projects: "/projects"
     posts: "/blog"
-  posts:
+  blog:
     all: "/blog"
     tags: "/blog/tags"
 
