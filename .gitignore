@@ -22,3 +22,7 @@ _site/
 
 # PyCharm
 .idea
+
+# Local bundle install
+vendor
+.bundle/config
