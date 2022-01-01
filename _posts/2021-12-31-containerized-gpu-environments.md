@@ -154,6 +154,7 @@ Above:
   * `shm_size` allocates the shared memory size. This may need adjusting depending on your needs.
 ### Makefile
 The Makefile is as below:
+
 ```
 SHELL = /bin/sh
 
@@ -171,6 +172,7 @@ dev:
 		--service-ports \
 		dev-env bash -c "cd;bash"
 ```
+
 The Makefile defines the tasks that can be executed. It also helps with setting the current user and group ID numbrs so that the user can appear as themselves when using the container. The user however can override any of the environment variables used in the Docker Compose YAML using `make <task> <VAR1>=<value1> <VAR2>=<value2>`. Here, the `docker-compose` commands are used with arguments so that the user does not need to remember how to use Docker commands, and instead can just use:
 * `make build`: build the image. The `docker-compose` command points to the YAML from before and specifies buildling the `build-env` service.
 * `make dev`: deploy the container and start up a terminal session within the container.
@@ -180,6 +182,7 @@ The Makefile defines the tasks that can be executed. It also helps with setting 
 
 ### A Note on TensorFlow VRAM
 TensorFlow by default allocates the entire GPU VRAM, which does not allow having multiple users on the same GPU and prevents from using PyTorch at the same time. Enabling memory growth will allow for this. To do this, the below should be run after importing TensorFlow, before anything else from TF is imported:
+
 ```
 gpu_list = tf.config.list_physical_devices('GPU')
 for gpu in gpu_list:
