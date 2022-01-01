@@ -152,6 +152,7 @@ Above:
   * `ports` forwards a specified `PORT` (default 8888) to the container's port 8888. This way, Jupyter can be access on the host machine's `PORT` with `--ip 0.0.0.0` (required when using a container)
   * Under `deploy`, `reservations` are made to allow usage of the GPU and allocating memory.
   * `shm_size` allocates the shared memory size. This may need adjusting depending on your needs.
+
 ### Makefile
 The Makefile is as below:
 
