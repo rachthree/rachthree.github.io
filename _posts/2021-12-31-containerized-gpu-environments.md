@@ -11,7 +11,7 @@ tags:
 - CUDA
 - Linux
 - Windows
-thumbnail_path: "blog/docker-gpu-dev-env/docker_tf_torch.png"
+thumbnail_path: "blog/docker-gpu-dev-env/docker_tf_pytorch.png"
 ---
 
 A year has flown by. A lot happened which put my posting and side projects on hold. Now with the holidays upon us, I finally have some time to revisit my projects. Might as well post after updating this for some security vulnerabilities!
